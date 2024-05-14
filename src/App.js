@@ -30,16 +30,10 @@ export default function App() {
       >
         {hasEmoji && (
           <>
+            <div style={{ fontSize: '100px' }}>{emoji}</div>
             <div
               style={{
-                fontSize: '100px',
-              }}
-            >
-              {emoji}
-            </div>
-            <div
-              style={{
-                backgroundColor: '#F0F0F0',
+                backgroundColor: '#f0f0f0',
                 padding: '5px 10px',
                 marginBottom: '16px',
                 borderRadius: '16px',
@@ -76,7 +70,7 @@ export default function App() {
       {!hasEmoji && (
         <div
           style={{
-            backgroundColor: '#F7B7B7',
+            backgroundColor: '#f7b7b7',
             borderRadius: '16px',
             padding: '5px 10px 5px 10px',
             marginTop: '16px',
