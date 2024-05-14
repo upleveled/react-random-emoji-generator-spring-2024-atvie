@@ -20,23 +20,36 @@ export default function App() {
       }}
     >
       <h1>Random Emoji Generator</h1>
-      {hasEmoji ? (
-        <>
-          <div style={{ fontSize: '100px' }}>{emoji}</div>
-          <div
-            style={{
-              backgroundColor: '#F0F0F0',
-              padding: '5px 10px',
-              marginBottom: '16px',
-              borderRadius: '16px',
-            }}
-          >
-            {emojiInput}
-          </div>
-        </>
-      ) : (
-        <div style={{ fontSize: '100px', height: '176px' }} />
-      )}
+      <div
+        style={{
+          height: '180px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
+      >
+        {hasEmoji && (
+          <>
+            <div
+              style={{
+                fontSize: '100px',
+              }}
+            >
+              {emoji}
+            </div>
+            <div
+              style={{
+                backgroundColor: '#F0F0F0',
+                padding: '5px 10px',
+                marginBottom: '16px',
+                borderRadius: '16px',
+              }}
+            >
+              {emojiInput}
+            </div>
+          </>
+        )}
+      </div>
       <div>
         <input
           // 2. Set the value to the input
