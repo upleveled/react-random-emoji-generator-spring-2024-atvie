@@ -76,7 +76,7 @@ export default function App() {
       {!hasEmoji && (
         <div
           style={{
-            backgroundColor: '#f7b7b7',
+            backgroundColor: '#F7B7B7',
             borderRadius: '16px',
             padding: '5px 10px 5px 10px',
             marginTop: '16px',
