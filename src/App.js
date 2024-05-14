@@ -71,9 +71,9 @@ export default function App() {
         <div
           style={{
             backgroundColor: '#f7b7b7',
+            padding: '5px 10px',
+            marginBottom: '16px',
             borderRadius: '16px',
-            padding: '5px 10px 5px 10px',
-            marginTop: '16px',
           }}
         >
           This emoji doesn't exist
